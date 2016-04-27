@@ -4,7 +4,7 @@ from datetime import datetime
 from itertools import groupby
 from xml.sax.saxutils import XMLGenerator
 from xml.sax.xmlreader import AttributesImpl
-from django.utils.unittest import TextTestResult
+from unittest import TextTestResult
 from discover_jenkins.utils import total_seconds
 
 try:
